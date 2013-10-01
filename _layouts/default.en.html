@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0;" />
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="alternate" href="/ru/" lang="ru" title="Русская версия">
+    <link rel="alternate" href="/ja/" lang="ja" title="日本語版">
+    <script type="text/javascript">
+      {% include ga.js %}
+    </script>
+  </head>
+  <body>
+    <menu id="lang_menu">
+      <li><a title="You are now watching english version. Вы смотрите английскую версию. このページは英語版です.">English</a></li>
+      <li><a href="/ru/" lang="ru" title="Russian version. Русская версия.　ロシア語版.">Русский</a></li>
+      <li><a href="/ja/" lang="ja" title="Japanese version. Японская версия. 日本語版.">日本語</a></li>
+    </menu>
+    <header>
+      <hgroup>
+        <img src="/images/photo.jpg" alt="Photo" id="my_photo">
+        <h1>Novikov "Envek" Andrey</h1>
+        <p>Software engineer. Russia, Blagoveshchensk. <small><a href="https://maps.google.com/maps?q=Russia,+Amurskaya+oblast,+Blagoveshchensk&hl=en&ie=UTF8&ll=50.289339,127.617188&spn=98.180419,270.527344&sll=49.837982,128.144531&sspn=98.714135,270.527344&oq=%D0%91%D0%BB%D0%B0&hnear=Blagoveshchensk,+Amur+Oblast,+Russia&t=m&z=3">Where's this?</a></small></p>
+        <menu id="social">
+          <li><a href="https://github.com/Envek" title="GitHub social source code hosting profile" class="github">GitHub</a></li>
+          <li><a href="http://ru.linkedin.com/pub/andrey-novikov/60/a1/207" title="LinkedIn profile" class="linkedin">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/Envek" title="Facebook social network profile" class="facebook">Facebook</a></li>
+          <li><a href="http://vk.com/envek" title="VK social network profile" class="vk">VK</a></li>
+        </menu>
+      </hgroup>
+    </header>
+    <article>
+      {{ content }}
+    </article>
+    <aside>
+      <h2>Contacts</h2>
+      <address id="contacts">
+        <dl>
+          <dt><img src="/images/icons/email.png" alt="E-mail"></dt><dd><a href="mailto:envek@envek.name">envek@envek.name</a></dd>
+          <dt><img src="/images/icons/phone.png" alt="Phone"></dt><dd><a href="tel:+79146021823">+79146021823</a></dd>
+          <dt><img src="/images/icons/skype.png" alt="Skype"></dt><dd><a href="callto://envekus">envekus</a></dd>
+          <dt><img src="/images/icons/jabber.png" alt="Jabber"></dt><dd>envek@jabber.ru</dd>
+          <dt><img src="/images/icons/icq.png" alt="ICQ"></dt><dd>258-643-259</dd>
+      </address>
+      <div id="hire">
+        <h2>Work</h2>
+        <p>I'm currently employeed at <a href="http://www.amursu.ru/">Amur State University</a> and unavailable for hire. But you can count on me and download <a href="http://envek.name/en/resume.pdf">my résumé</a>.</p>
+      </div>
+    </aside>
+  </body>
+</html>

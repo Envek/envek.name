@@ -1,0 +1,7 @@
+name: Envek
+markdown: redcarpet
+pygments: true
+exclude:
+  - Gemfile
+  - Rakefile
+encoding: UTF-8
