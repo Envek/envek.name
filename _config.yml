@@ -1,6 +1,6 @@
 name: Envek
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 exclude:
   - Gemfile
   - Rakefile
