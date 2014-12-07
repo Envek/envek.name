@@ -1,5 +1,6 @@
 ---
 layout: default.en
+id: site_index
 title: Novikov Andrey. Welcome!
 ---
 

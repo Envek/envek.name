@@ -1,5 +1,6 @@
 ---
 layout: default.en
+id: projects
 title: 'Novikov Andrey: Projects.'
 ---
 

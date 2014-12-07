@@ -5,3 +5,27 @@ exclude:
   - Gemfile
   - Rakefile
 encoding: UTF-8
+
+permalink: /:categories/:year/:month/:day/:title
+
+defaults:
+  - scope:
+      path: en
+    values:
+      layout: blog.en
+      lang: en
+  - scope:
+      path: ru
+    values:
+      layout: blog.ru
+      lang: ru
+  - scope:
+      path: ja
+    values:
+      layout: blog.ja
+      lang: ja
+
+languages:
+  en: English
+  ru: Русский
+  ja: 日本語

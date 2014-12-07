@@ -1,5 +1,6 @@
 ---
 layout: default.ru
+id: projects
 title: 'Новиков Андрей: Проекты.'
 ---
 

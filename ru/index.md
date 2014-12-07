@@ -1,5 +1,6 @@
 ---
 layout: default.ru
+id: site_index
 title: Новиков Андрей. Добро пожаловать!
 ---
 

@@ -1,0 +1,15 @@
+---
+layout: master.ru
+---
+<nav id="breadcrumbs">
+  <li><a href="{{ site.url }}/{{ page.lang }}/">Главная</a></li>
+  <li><a href="{{ site.url }}/{{ page.lang }}/blog/">Блог</a></li>
+  <li>{{ page.title }}</li>
+</nav>
+<article>
+  {{ content }}
+</article>
+<aside>
+  <h2>Статьи</h2>
+  {% include last_blog_articles.html %}
+</aside>

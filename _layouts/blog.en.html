@@ -1,0 +1,15 @@
+---
+layout: master.en
+---
+<nav id="breadcrumbs">
+  <li><a href="{{ site.url }}/{{ page.lang }}/">Main page</a></li>
+  <li><a href="{{ site.url }}/{{ page.lang }}/blog/">Blog</a></li>
+  <li>{{ page.title }}</li>
+</nav>
+<article>
+  {{ content }}
+</article>
+<aside>
+  <h2>Articles</h2>
+  {% include last_blog_articles.html %}
+</aside>

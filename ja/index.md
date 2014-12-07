@@ -1,5 +1,6 @@
 ---
 layout: default.ja
+id: site_index
 title: ノヴィコフ・アンドレイのホームページへようこそ！
 ---
 

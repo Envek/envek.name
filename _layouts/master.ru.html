@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0;" />
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    {% include meta_alternate_locales.html %}
+    <script type="text/javascript">
+      {% include ga.js %}
+    </script>
+  </head>
+  <body>
+    <menu id="lang_menu">
+      {% include head_alternate_locales.html %}
+    </menu>
+    <header>
+      <hgroup>
+        <a href="{{site.url}}/ru/"><img src="https://secure.gravatar.com/avatar/d0e95abdd0aed671ebd0920c16d393d4?s=200&d=identicon&r=PG" alt="Фотография" id="my_photo"></a>
+        <h1>Новиков «Envek» Андрей</h1>
+        <p>Разработчик программного обеспечения. Россия, Москва.</p>
+        <menu id="social">
+          <li><a href="https://github.com/Envek" title="Профиль на социальном хостинге исходного кода GitHub" class="github">GitHub</a></li>
+          <li><a href="http://ru.linkedin.com/pub/%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%BD%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2/60/a1/207/ru" title="Профиль на социальной сети LinkedIn" class="linkedin">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/Envek" title="Профиль в социальной сети Facebook" class="facebook">Facebook</a></li>
+          <li><a href="http://vk.com/envek" title="Профиль в социальной сети ВКонтакте" class="vk">ВКонтакте</a></li>
+        </menu>
+      </hgroup>
+    </header>
+    {{ content }}
+  </body>
+</html>

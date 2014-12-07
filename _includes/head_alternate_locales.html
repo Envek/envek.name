@@ -1,0 +1,20 @@
+{% for lang in site.languages %}
+{% assign lang_code=lang[0] %}
+{% assign lang_name=lang[1] %}
+{% if page.lang == lang_code %}
+  <li><a>{{ lang_name }}</a></li>
+{% else %}
+{% assign posts=site.posts | where:"name", page.name | where:"lang", lang_code %}
+{% for post in posts %}
+  {% if post.lang != page.lang %}
+  <li><a rel="alternate" hreflang="{{post.lang}}" href="{{post.url}}" title="{{post.title}}">{{ lang_name }}</a></li>
+  {% endif %}
+{% endfor %}
+{% assign pgs=site.pages | where:"id", page.id | where:"lang", lang_code %}
+{% for pg in pgs %}
+  {% if pg.lang != page.lang %}
+  <li><a rel="alternate" hreflang="{{pg.lang}}" href="{{pg.url | remove:'index.html'}}" title="{{pg.title}}">{{ lang_name }}</a></li>
+  {% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}

@@ -108,7 +108,7 @@ article p {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  
+
 }
 
 aside {
@@ -128,6 +128,25 @@ aside {
 
 #contacts dd {
   margin: 0 0 0.5em 24px;
+}
+
+#breadcrumbs {
+  margin: 0.5em 0 0;
+  font-size: 80%;
+}
+
+#breadcrumbs li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 0.5em 0 0;
+}
+
+#breadcrumbs li::before {
+  display: block;
+  float: left;
+  content: '/';
+  padding: 0 0.5em 0 0;
 }
 
 /* Social links icons */

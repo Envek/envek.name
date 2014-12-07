@@ -1,0 +1,12 @@
+{% assign posts=site.posts | where:"name", page.name %}
+{% for post in posts %}
+  {% if post.lang != page.lang %}
+    <link rel="alternate" hreflang="{{post.lang}}" href="{{post.url}}" title="{{post.title}}" />
+  {% endif %}
+{% endfor %}
+{% assign pgs=site.pages | where:"id", page.id %}
+{% for pg in pgs %}
+  {% if pg.lang != page.lang %}
+    <link rel="alternate" hreflang="{{pg.lang}}" href="{{pg.url | remove:'index.html'}}" title="{{pg.title}}" />
+  {% endif %}
+{% endfor %}
