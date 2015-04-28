@@ -7,13 +7,13 @@
 {% assign posts=site.posts | where:"name", page.name | where:"lang", lang_code %}
 {% for post in posts %}
   {% if post.lang != page.lang %}
-  <li><a rel="alternate" hreflang="{{post.lang}}" href="{{post.url}}" title="{{post.title}}">{{ lang_name }}</a></li>
+  <li><a rel="alternate" lang="{{post.lang}}" hreflang="{{post.lang}}" href="{{post.url}}" title="{{post.title}}">{{ lang_name }}</a></li>
   {% endif %}
 {% endfor %}
 {% assign pgs=site.pages | where:"id", page.id | where:"lang", lang_code %}
 {% for pg in pgs %}
   {% if pg.lang != page.lang %}
-  <li><a rel="alternate" hreflang="{{pg.lang}}" href="{{pg.url | remove:'index.html'}}" title="{{pg.title}}">{{ lang_name }}</a></li>
+  <li><a rel="alternate" lang="{{pg.lang}}" hreflang="{{pg.lang}}" href="{{pg.url | remove:'index.html'}}" title="{{pg.title}}">{{ lang_name }}</a></li>
   {% endif %}
 {% endfor %}
 {% endif %}
