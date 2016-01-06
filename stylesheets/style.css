@@ -236,6 +236,9 @@ only screen and (max-device-width: 768px) {
 
 }
 
+.google-adsense { margin: 2em 1em 1em; }
+.google-adsense .ads-block-main { width: 320px; height: 50px;}
+
 /* https://github.com/mojombo/tpw/blob/master/css/syntax.css @ 79eb90d386ce1b66f8ec54fa4ac5099bd4f545dd */
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
