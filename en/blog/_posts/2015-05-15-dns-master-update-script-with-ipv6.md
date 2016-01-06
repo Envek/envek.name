@@ -75,7 +75,7 @@ What it is doing?
 
 Only three things:
 
- 1. Get you public IPv4 и IPv6 addresses using [Telize] service;
+ 1. Get you public IPv4 и IPv6 addresses using [WTF is my IP] service;
  2. Uses only those that are present in your network interfaces;
  3. Sends request to [DNS Master] API to update records.
 
@@ -102,5 +102,5 @@ Further reading
 [DNS Master]: http://dns-master.ru/
 [API for developers]: http://nic.ru/dns/service/dns_hosting/dns_master/dynamic_dns_for_developers.html
 [manual]: http://dns-master.ru/dynamic_dns/setup.html
-[Telize]: http://www.telize.com/
+[WTF is my IP]: https://wtfismyip.com/
 [MIT]: http://opensource.org/licenses/MIT

@@ -75,7 +75,7 @@ chmod +x /usr/local/bin/dnsmaster-update
 
 Скрипт делает всего три вещи:
 
- 1. Узнаёт ваши публичные IPv4 и IPv6 адреса с помощью сервиса [Telize];
+ 1. Узнаёт ваши публичные IPv4 и IPv6 адреса с помощью сервиса [WTF is my IP];
  2. Оставляет из полученных адресов только те, которые на самом деле есть на ваших сетевых интерфейсах;
  3. Отправляет запрос к API [DNS Master] для обновления записей.
 
@@ -101,5 +101,5 @@ chmod +x /usr/local/bin/dnsmaster-update
 [DNS Master]: http://dns-master.ru/
 [API для разработчиков]: http://nic.ru/dns/service/dns_hosting/dns_master/dynamic_dns_for_developers.html
 [Настройка динамического DNS]: http://dns-master.ru/dynamic_dns/setup.html
-[Telize]: http://www.telize.com/
+[WTF is my IP]: https://wtfismyip.com/
 [MIT]: http://opensource.org/licenses/MIT "Полный текст лицензии MIT"
