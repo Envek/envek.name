@@ -21,6 +21,8 @@ Projects *(excerpt)*
 
 [View full list](./projects/).
 
+  * Ambulance station automation system
+  * [The Official Website of the Russian Ministry of Health](https://www.rosminzdrav.ru/)
   * [Admission committee software for Amur State University](http://priem.amursu.ru/)
   * [System for collection and aggregation data of municipal budget programs for Ministry of Economic Development of the Amur region](http://mcp.amurobl.ru/). *In collaboration with [Andrey Voronkov](https://github.com/Antiarchitect).*
   * [System for composing the timetable for Amur State University](http://taurus.amursu.ru/). *In collaboration with [Andrey Voronkov](https://github.com/Antiarchitect).*
