@@ -4,6 +4,8 @@ highlighter: pygments
 exclude:
   - Gemfile
   - Rakefile
+include:
+  - .well-known
 encoding: UTF-8
 
 permalink: /:categories/:year/:month/:day/:title

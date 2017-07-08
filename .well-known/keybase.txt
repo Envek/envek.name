@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/envek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://envek.name
+  * I am envek (https://keybase.io/envek) on keybase.
+  * I have a public key ASCKS1aFbFEFwrxiax6bcQpgrZSEUfVUQozPZysyHkKBdQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012725f39edf9f1c975aef6181b701cbba9d295eec4bedb7636cb4060aa4e3ce8e0a",
+            "host": "keybase.io",
+            "kid": "01208a4b56856c5105c2bc626b1e9b710a60ad948451f554428ccf672b321e4281750a",
+            "uid": "b1de48da56e70232c1360ef0f00f6e19",
+            "username": "envek"
+        },
+        "merkle_root": {
+            "ctime": 1499525500,
+            "hash": "208335951ec5131ed5e9249e9252e50adf5c53b7c6b77921822c7c45249aba0b1585f4bee3a18c0fdd69a1ffacd00ba8d2b9923a420e613390918c5663622230",
+            "hash_meta": "faccc2c42d0da1f9830577b3b7bbe4d66a2e50016f45c04cf9fbc33d5dfd35f8",
+            "seqno": 1218630
+        },
+        "service": {
+            "hostname": "envek.name",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.25"
+    },
+    "ctime": 1499525511,
+    "expire_in": 504576000,
+    "prev": "4b785734e9f3de706a9c56a22fb5d7f52b9331a5f21900a0b90da7303d2b8ace",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgiktWhWxRBcK8Ymsem3EKYK2UhFH1VEKMz2crMh5CgXUKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMjcyNWYzOWVkZjlmMWM5NzVhZWY2MTgxYjcwMWNiYmE5ZDI5NWVlYzRiZWRiNzYzNmNiNDA2MGFhNGUzY2U4ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGE0YjU2ODU2YzUxMDVjMmJjNjI2YjFlOWI3MTBhNjBhZDk0ODQ1MWY1NTQ0MjhjY2Y2NzJiMzIxZTQyODE3NTBhIiwidWlkIjoiYjFkZTQ4ZGE1NmU3MDIzMmMxMzYwZWYwZjAwZjZlMTkiLCJ1c2VybmFtZSI6ImVudmVrIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk5NTI1NTAwLCJoYXNoIjoiMjA4MzM1OTUxZWM1MTMxZWQ1ZTkyNDllOTI1MmU1MGFkZjVjNTNiN2M2Yjc3OTIxODIyYzdjNDUyNDlhYmEwYjE1ODVmNGJlZTNhMThjMGZkZDY5YTFmZmFjZDAwYmE4ZDJiOTkyM2E0MjBlNjEzMzkwOTE4YzU2NjM2MjIyMzAiLCJoYXNoX21ldGEiOiJmYWNjYzJjNDJkMGRhMWY5ODMwNTc3YjNiN2JiZTRkNjZhMmU1MDAxNmY0NWMwNGNmOWZiYzMzZDVkZmQzNWY4Iiwic2Vxbm8iOjEyMTg2MzB9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZW52ZWsubmFtZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI1In0sImN0aW1lIjoxNDk5NTI1NTExLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjRiNzg1NzM0ZTlmM2RlNzA2YTljNTZhMjJmYjVkN2Y1MmI5MzMxYTVmMjE5MDBhMGI5MGRhNzMwM2QyYjhhY2UiLCJzZXFubyI6MjEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAofd2Le4+btUYzGqr6kl75gDo3df2YDMQbr+V7Hzih4+XUzXW1PJVXlT6AjpndlMpXAxnhsTILcfDZAd6NNdAB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIialOtc5uZvq++Qtkip/z0dCHWF62MqXvCchZg0aJaQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/envek
+
+==================================================================
