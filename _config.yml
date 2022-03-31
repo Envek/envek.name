@@ -1,5 +1,5 @@
 name: Envek
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 exclude:
   - Gemfile
