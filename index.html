@@ -1,2 +1,7 @@
 <!DOCTYPE html>
+<script type="text/javascript">
+  var mainUserLanguage = navigator.language.split('-')[0];
+  var locale = ['ru', 'ja', 'en'].includes(mainUserLanguage) ? mainUserLanguage : 'en';
+  location.replace(new URL(`./${locale}/`, location.href));
+</script>
 <p>Hmm... You shouldn't be able to see this. Try to open <a href="/en/">english</a>, <a href="/ru/">russian</a> or <a href="/ja/">japanese</a> version.</p>
