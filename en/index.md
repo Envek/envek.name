@@ -7,7 +7,7 @@ title: Novikov Andrey. Welcome!
 About me
 --------
 
-Hello! My name is Andrey. I'm a programmer and software developer located in Moscow, Russia.
+Hello! My name is Andrey. I'm a programmer and software developer located in Osaka, Japan.
 
 I am a web developer with a strong passion to build rock solid applications: secure, reliable, fast.
 
