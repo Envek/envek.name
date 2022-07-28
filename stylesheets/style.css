@@ -171,6 +171,9 @@ aside {
   padding: 0 0.5em 0 0;
 }
 
+/* Personal info */
+.surname { font-variant-caps: small-caps; }
+
 /* Social links icons */
 #social a::before {
   display: inline-block;
