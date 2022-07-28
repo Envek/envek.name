@@ -14,32 +14,15 @@ title: Новиков Андрей. Добро пожаловать!
 обрабатывают большое количество разнообразных данных, импортируют и
 экспортируют их в разнообразные форматы и облегчают работу многим людям.
 
-В последнее время я в основном программирую на Ruby (фреймворк [Ruby on Rails]) и, немного, на js-фреймворках, таких как Ember.js.
+В последнее время я в основном программирую на Ruby (фреймворк [Ruby on Rails]).
 
-Я люблю идеологию open source и стараюсь улучшать открытые проекты, я внёс тот или иной вклад в такие из них как [Ruby on Rails](https://github.com/rails/rails/pulls?q=is%3Apr+author%3AEnvek), [Signer] и [другие](https://github.com/Envek).
+Я люблю идеологию open source и стараюсь улучшать открытые проекты, я внёс тот или иной вклад в такие из них как [Ruby on Rails](https://github.com/rails/rails/pulls?q=is%3Apr+author%3AEnvek), а так же поддерживаю свои Ruby-гемы, такие как [Yabeda](https://github.com/yabeda-rb/) и [After Commit Everywhere](https://github.com/Envek/after_commit_everywhere). Смотрите [мой GitHub-профиль](https://github.com/Envek) — там есть ещё.
 
-Проекты *(выдержка)*
---------------------
-
-[Просмотреть полный список](./projects/).
-
-  * Система автоматизации деятельности станций скорой помощи
-  * [Официальный сайт Министерства здравоохранения РФ](https://www.rosminzdrav.ru/)
-  * [Система автоматизации деятельности приёмной комиссии для АмГУ](http://priem.amursu.ru/)
-  * [Система сбора данных по муниципальным целевым программам для минэкономразвития Амурской области](http://mcp.amurobl.ru/). *В соавторстве с [Андреем Воронковым.](https://github.com/Antiarchitect)*
-  * [Система автоматизации составления учебного расписания для АмГУ](http://taurus.amursu.ru/). *В соавторстве с [Андреем Воронковым.](https://github.com/Antiarchitect)*
 
 Статьи
 ------
 
-На ресурсе [Habrahabr] мной опубликовано [несколько
-статей](http://habrahabr.ru/users/envek/topics/).
-
-Лучшая из них, на мой взгляд: [HTML и SVG: создаём интерактивную
-карту](http://habrahabr.ru/post/127994/).
+Я написал несколько статей в профильные блоги: в [Марсианские хроники](https://evilmartians.com/chronicles/) (на английском), на [Хабре](https://habr.com/ru/users/envek/posts/) (на русском), в моём личном блоке (т.е. прям [здесь](./blog/)), и даже [несколько Twitter-тредов](https://getchirrapp.com/@Envek).
 
 
 [Ruby on Rails]: https://github.com/rails/rails
-[Signer]: https://github.com/ebeigarts/signer
-[Paperclip]: https://github.com/thoughtbot/paperclip
-[Habrahabr]: http://habrahabr.ru/

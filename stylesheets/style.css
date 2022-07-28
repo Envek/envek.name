@@ -192,8 +192,8 @@ aside {
   background: url("/images/icons/facebook.png");
 }
 
-#social a.vk::before {
-  background: url("/images/icons/vk.png");
+#social a.twitter::before {
+  background: url("/images/icons/twitter.png");
 }
 
 /* Adaptive design (for small screen devices) */
